@@ -1,0 +1,254 @@
+
+> ecommerce-store@0.1.0 dev /home/penguin/webdev/main-projects/ecommerce-store
+> next dev
+
+  ▲ Next.js 14.2.7
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (498 modules)
+ GET / 200 in 4055ms
+ ✓ Compiled in 289ms (236 modules)
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 652ms (546 modules)
+ GET /admin 200 in 2237ms
+ ✓ Compiled in 110ms (265 modules)
+ ✓ Compiled in 131ms (265 modules)
+ ✓ Compiled in 165ms (546 modules)
+ ✓ Compiled /admin/products in 171ms (548 modules)
+ ⨯ Error: The default export is not a React Component in page: "/admin/products"
+    at rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:9573)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async rU (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:12534)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:13106
+    at async Promise.all (index 0)
+    at async rU (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:13040)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:13106
+    at async Promise.all (index 0)
+    at async rU (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:13040)
+    at async rQ (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:16238)
+    at async doRender (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1418:30)
+    at async cacheEntry.responseCache.get.routeKind (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1579:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1487:28)
+    at async DevServer.renderPageComponent (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1911:24)
+    at async DevServer.renderToResponseImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1949:32)
+    at async DevServer.pipeImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:916:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:812:17)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  page: '/admin/products'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1551ms (773 modules)
+ ⨯ Error: The default export is not a React Component in page: "/admin/products"
+    at rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:9573)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async rU (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:12534)
+    at async rQ (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:16238)
+    at async doRender (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1418:30)
+    at async cacheEntry.responseCache.get.routeKind (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1579:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1487:28)
+    at async DevServer.renderPageComponent (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1911:24)
+    at async DevServer.renderToResponseImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1949:32)
+    at async DevServer.pipeImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:916:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:812:17)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  page: '/admin/products'
+}
+ ⨯ Error: The default export is not a React Component in page: "/admin/products"
+    at rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:9573)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10360
+    at async Promise.all (index 0)
+    at async rL (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:10036)
+    at async rU (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:12534)
+    at async rQ (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:16238)
+    at async doRender (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1418:30)
+    at async cacheEntry.responseCache.get.routeKind (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1579:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1487:28)
+    at async DevServer.renderPageComponent (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1911:24)
+    at async DevServer.renderToResponseImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:1949:32)
+    at async DevServer.pipeImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:916:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:812:17)
+    at async /home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:173:21)
+    at async handleRequest (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:350:24)
+    at async requestHandlerImpl (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:374:13)
+    at async Server.requestListener (/home/penguin/webdev/main-projects/ecommerce-store/node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  page: '/admin/products'
+}
+ ⨯ Error: The default export is not a React Component in page: "/admin/products"
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+digest: "1816213905"
+ ⨯ Error: The default export is not a React Component in page: "/admin/products"
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+digest: "1816213905"
+ GET /admin/products 500 in 110ms
+ ✓ Compiled in 191ms (787 modules)
+ GET /admin/products 200 in 114ms
+ ✓ Compiled in 269ms (449 modules)
+ GET / 200 in 30ms
+ ✓ Compiled in 215ms (449 modules)
+ ✓ Compiled in 138ms (449 modules)
+ ✓ Compiled in 165ms (449 modules)
+ ✓ Compiled in 124ms (449 modules)
+ ✓ Compiled in 116ms (449 modules)
+ ✓ Compiled in 239ms (449 modules)
+ ✓ Compiled in 132ms (449 modules)
+ GET /admin/products 200 in 34ms
+ GET /admin/products 200 in 23ms
+ ✓ Compiled in 460ms (785 modules)
+ ✓ Compiled in 230ms (785 modules)
+ ✓ Compiled in 503ms (785 modules)
+ ✓ Compiled in 239ms (785 modules)
+ ✓ Compiled in 223ms (785 modules)
+ ✓ Compiled in 314ms (785 modules)
+ ✓ Compiled in 258ms (786 modules)
+ ✓ Compiled in 294ms (786 modules)
+ GET /admin/products 200 in 83ms
+ ✓ Compiled in 381ms (786 modules)
+ ✓ Compiled in 216ms (786 modules)
+ ⨯ ./app/admin/products/page.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/home/penguin/webdev/main-projects/ecommerce-store/app/admin/products/page.tsx[0m:4:1]
+ [2m 4[0m | 
+ [2m 5[0m | export default function Page() {
+ [2m 6[0m |   return (
+ [2m 7[0m |     <div>
+    : [31;1m     ^^^[0m
+ [2m 8[0m |       <PageHeader>Products</PageHeader>
+ [2m 9[0m |       <Button>
+ [2m10[0m |         <Link href={"/admin/products/new"} >
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/admin/products/page.tsx
+ ⨯ ./app/admin/products/page.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/home/penguin/webdev/main-projects/ecommerce-store/app/admin/products/page.tsx[0m:4:1]
+ [2m 4[0m | 
+ [2m 5[0m | export default function Page() {
+ [2m 6[0m |   return (
+ [2m 7[0m |     <div>
+    : [31;1m     ^^^[0m
+ [2m 8[0m |       <PageHeader>Products</PageHeader>
+ [2m 9[0m |       <Button>
+ [2m10[0m |         <Link href={"/admin/products/new"} >
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/admin/products/page.tsx
+ ○ Compiling /_error ...
+ GET /admin/products 500 in 14ms
+ ✓ Compiled /_not-found in 621ms (786 modules)
+ GET /admin/products 200 in 213ms
+ ✓ Compiled in 293ms (800 modules)
+ ✓ Compiled in 279ms (800 modules)
+ ✓ Compiled in 211ms (797 modules)
+ ✓ Compiled in 155ms (451 modules)
+ ✓ Compiled in 319ms (797 modules)
+ ✓ Compiled in 434ms (797 modules)
+ ✓ Compiled in 233ms (797 modules)
+ ✓ Compiled in 549ms (797 modules)
+ ⨯ ./app/admin/products/page.tsx
+Error: 
+  [31mx[0m Unexpected token `Table`. Expected jsx identifier
+    ,-[[36;1;4m/home/penguin/webdev/main-projects/ecommerce-store/app/admin/products/page.tsx[0m:14:1]
+ [2m14[0m | }
+ [2m15[0m | 
+ [2m16[0m | async function ProductsTable() {
+ [2m17[0m |   return <Table>
+    : [31;1m          ^^^^^[0m
+ [2m18[0m |       <TableHeader>
+ [2m19[0m |         <TableRow>
+ [2m20[0m |           <TableHead className="w-0">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/admin/products/page.tsx
+ GET /admin/products 500 in 20ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 692ms (787 modules)
+ GET /admin/products 200 in 220ms
+ ⨯ ./app/admin/products/page.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/home/penguin/webdev/main-projects/ecommerce-store/app/admin/products/page.tsx[0m:5:1]
+ [2m 5[0m | 
+ [2m 6[0m | export default function Page() {
+ [2m 7[0m |   return (
+ [2m 8[0m |     <div className="flex justify-between items-center gap-4">
+    : [31;1m     ^^^[0m
+ [2m 9[0m |       <PageHeader>Products</PageHeader>
+ [2m10[0m |       <Button asChild={true}>
+ [2m11[0m |         <Link href={"/admin/products/new"}>Add Product</Link>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/admin/products/page.tsx
+ GET /admin/products 500 in 15ms
+ ✓ Compiled in 339ms (787 modules)
+ GET /admin/products 200 in 263ms
+ ✓ Compiled in 145ms (453 modules)
+ ✓ Compiled in 647ms (787 modules)
+ ✓ Compiled in 147ms (453 modules)
+ ✓ Compiled in 112ms (453 modules)
+ ✓ Compiled in 118ms (453 modules)
+ ✓ Compiled in 499ms (798 modules)
+ ✓ Compiled in 242ms (451 modules)
+ ✓ Compiled in 151ms (451 modules)
+ ✓ Compiled in 127ms (451 modules)
+ ✓ Compiled /admin/products/new in 463ms (787 modules)
+[?25h
